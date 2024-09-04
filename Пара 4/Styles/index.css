@@ -1,0 +1,31 @@
+:root {
+    --bg-color: #FFF;
+    --font-color: #000;
+    --select-color: #5D0254;
+}
+
+* {
+    font-size: 18px;
+    color: var(--font-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.card {
+    padding: 20px 30px;
+    border: 3px solid var(--select-color);
+    width: 600px;
+    text-align: justify;
+}
+
+#switch-theme {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: 3px solid var(--select-color);
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
